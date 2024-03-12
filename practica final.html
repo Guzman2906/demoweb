@@ -1,0 +1,75 @@
+<html>
+
+<head> 
+	<meta charset="utf-8"/>
+	<title>Inicio</title>
+	<link href="estilo.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png">
+		<Script language="JavaScript">
+	function DameLaFechaHora() {
+  	var hora = new Date()
+  	var hrs = hora.getHours();
+  	var min = hora.getMinutes();
+  	var hoy = new Date();
+  	var m = new Array();
+  	var d = new Array()
+  	var an= hoy.getYear();
+  	m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+  	m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+  	m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+  	m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+	if (min<10){
+  	document.write("Son las "+hrs+":0"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	else{
+		document.write("Son las "+hrs+":"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	}
+
+	</script>
+</head>
+<body background="https://images.unsplash.com/photo-1608567120837-8d19fa19bebf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9uZG8lMjBuZWdybyUyMGxpc298ZW58MHx8MHx8fDA%3D">
+
+
+	<table align="right" border="0">
+	<img width="1500" height="300" src="https://wallpapers.com/images/hd/every-legendary-pokemon-yq2y7v56tbogy58q.jpg">
+	<tr>
+	<td><a href="practica final.html">Inicio</a></td>
+	<td><a href="Equipos.html">Equipos</a></td>
+	<td><a href="Mecánicas.html">Mecánicas</a></td>
+	<td><a href="Inscripcion Torneo.html">Inscripcion Torneo</a></td>
+	</tr>
+	</table>
+	<br><br>
+	<ul>
+	<li>
+	<h1>Introducción:</h1><div> En el mundo POKEMON  existe un aparatado para los combates competitivos, en este apartado hay diferentes factores como los tipos de pokemon, estadisticas,
+	los tipos de ataques, los items y las habilidades entre otras cosas y como en todo hay unos pokemons que son mejores que otros ha esto se le llama que estos pokemon estan en el meta estos pokemon pueden ser mejores o peores dependiendo de las actualizaciones que se hagan en las estadisticas.</div>
+	</li>
+	</ul>
+	<br>
+	<center>
+	<h1> Video ejemplo combate </h1>
+	<iframe width="944" height="531" src="https://www.youtube.com/embed/Em1YT6PsRww" title="FINAL del MUNDIAL POKÉMON 2022 (ÚLTIMO COMBATE)! GUILLERMO &quot;KASTY&quot; (ESP) vs EDUARDO CUNHA (POR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<img class="img1" src="pokemon-1671869502.jpg" height="300" width="450"></img>
+	<br><br><br>
+	<div class="centrado"> Este apartado de pokemon cuenta con diferentes torneos regionales que se realizan a lo largo del año en los cuales puedes participar para conseguir puntos para clasificarse para el torneo importante </div>
+	<h2> Guzmán García Mohedano <br>
+	<script>
+	DameLaFechaHora();
+	</script>
+	</h2>
+	</center>
+	
+</body>
